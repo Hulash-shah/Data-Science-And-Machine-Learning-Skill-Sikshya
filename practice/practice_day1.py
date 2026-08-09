@@ -165,3 +165,10 @@
 
 
 
+x = []
+
+if x:
+    print("A")
+else:
+    if x == []:
+        print("B")
