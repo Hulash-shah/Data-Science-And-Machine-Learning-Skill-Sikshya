@@ -124,7 +124,5 @@ for i in range( 1, 1001):
         print(i)
         break
 
-# Complex Data Types
-# List
 
  
