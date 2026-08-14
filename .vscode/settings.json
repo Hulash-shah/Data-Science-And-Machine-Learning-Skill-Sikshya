@@ -1,3 +1,4 @@
 {
-    "editor.suggest.matchOnWordStartOnly": false
+    "editor.suggest.matchOnWordStartOnly": false,
+    "python-envs.defaultEnvManager": "ms-python.python:system"
 }
