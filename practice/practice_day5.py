@@ -57,16 +57,17 @@
         
 # print(check("vowel"))
 
+# def check_prime(num: int) -> None:
+#     if num <= 1:
+#         print("Number is not prime")
+#         return
 
-# def check_prime(num : int) -> int:
-#     if num > 1 and num % num == 0 and num % 1 == 0 and num % 2 != 0:
-#         print("number is prime")
-    
-#     else:
-#       print("number is not prime")
-        
-# check_prime(5)
-# check_prime(6)
+#     for i in range(2, int(num ** 0.5) + 1):
+#         if num % i == 0:
+#             print("Number is not prime")
+#             return
+
+#     print("Number is prime")
 
 
 
