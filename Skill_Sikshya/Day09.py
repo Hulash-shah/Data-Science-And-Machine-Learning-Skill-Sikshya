@@ -1,4 +1,4 @@
-
+# ASSIGNMENT DAY 3
 # Question : Check for Palindrome
 # Write a Python program using a lambda function to check if a given string is a palindrome.
 
