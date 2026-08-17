@@ -13,7 +13,7 @@
 
 name = input("Enter a String of your choice: ")
 
-check = lambda name: f"{name} is a Palindrme string" if  name  == name[: : -1] else f"{name } is not a palindrome string"
+check = lambda name: f"{name} is a Palindrome string" if name == name[ : : -1] else f"{name } is not a palindrome string"
 
 print(check(name))
 
@@ -46,15 +46,24 @@ transactions = [
 ]
 
 
-check_completed = filter(lambda t:  t["status"] == "completed", transactions )
+check_completed = filter(
+    lambda t:  t["status"] == "completed",
+    transactions )
 print((check_completed))
 
 
-taxed = map(lambda a : a["amount"]*1.1, check_completed)
+taxed = map(
+    lambda a : a["amount"]*1.1,
+    check_completed
+    )
 print((taxed))
 
 from functools import reduce
-net_revenue = reduce(lambda x, y: x + y, taxed)
+net_revenue = reduce(
+    lambda x,
+    y: x + y,
+    taxed
+    )
 print(f"Net Revenue: {net_revenue:.2f}")
 
 
@@ -75,7 +84,8 @@ print(f"Net Revenue: {net_revenue:.2f}")
 # You should provide methods to:
 
 # Calculate total rental cost: Given the number of rental days, calculate the total cost for any vehicle.
-# Display vehicle details: For both cars and bikes, display details including the unique attributes (e.g., number_of_doors for cars, bike_type for bikes).
+# Display vehicle details: For both cars and bikes, display details including the unique attributes (e.g., number_of_doors for cars, 
+# bike_type for bikes).
 # Implement the following OOP concepts:
 
 # Abstraction: Provide a clean interface for calculating the total rental cost and displaying vehicle details, hiding the internal logic.
@@ -105,7 +115,8 @@ class Vehicle:
 
     def get_rental_price(self):
         return self.__rental_price
-
+     
+    
     def calculate_rental_cost(self, days):
         return self.__rental_price * days
 
@@ -145,8 +156,8 @@ class Bike(Vehicle):
 
 # Creating objects
 
-car = Car(101, "Ferrarii", 50, 4)
-bike = Bike(102, "Yatri", 30, "Mountain Bike")
+car = Car(101, "Ferrarii", 5000, 4)
+bike = Bike(102, "Yatri", 3000, "Mountain Bike")
 
 
 # Display details
