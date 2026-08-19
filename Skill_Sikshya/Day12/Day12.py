@@ -130,7 +130,6 @@ subpackage: A package inside another package.
 
 # PassCheck Class
 # pass_check = PassCheck("hello23456")
- 
 # pass_check() -> Strong or Weak Password
  
 # Strong:
