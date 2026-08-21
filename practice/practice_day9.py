@@ -1,22 +1,22 @@
 # # checking a prime number
 
-# from math import isqrt
+from math import isqrt
 
-# def check_prime(num : int) -> None :
+def check_prime(num : int) -> None :
 
-#     if num <= 1:
-#         print(f"{num} is not prime")
-#         return
+    if num <= 1:
+        print(f"{num} is not prime")
+        return
     
-#     for i in range(2, isqrt(num) + 1 ):
-#         if num % i == 0:
-#             print(f"{num} is not prime")
-#             return
+    for i in range(2, isqrt(num) + 1 ):
+        if num % i == 0:
+            print(f"{num} is not prime")
+            return
         
        
-#     print(f"{num} is prime")
+    print(f"{num} is prime")
     
-# check_prime(29)
+check_prime(29)
 
 
 
