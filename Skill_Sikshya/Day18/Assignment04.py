@@ -145,7 +145,8 @@ Concepts: Packages, Modules, Importing, Separation of Concerns
 
 """
 Exception Handling Scenario: Online Age-Restricted Service
-Scenario: You’re building a sign-up system for an online movie rental platform. Some movies are age-restricted (18+). You need to ensure proper validation and error handling during user registration.
+Scenario: You’re building a sign-up system for an online movie rental platform. Some movies are age-restricted (18+). 
+You need to ensure proper validation and error handling during user registration.
 
 Task:
 
@@ -227,7 +228,8 @@ In this step, we create a User class with attributes for the user's name and whe
 In this step, we create a ShoppingCart class with methods for adding and removing products from the cart,
 as well as calculating the total cost of the items in the cart.
 
-Note: Define calculate_total_cost method in the ShoppingCart class, that applies a 10% discount to the total cost if you are premium User.
+Note: Define calculate_total_cost method in the ShoppingCart class, that applies a 10% discount to the total 
+cost if you are premium User.
 
 # Your Solution Here
 4. Testing the functionality
