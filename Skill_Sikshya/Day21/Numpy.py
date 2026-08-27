@@ -2,34 +2,34 @@
 
 import numpy as np
 
-# 1D Array
+#1D Array
 
-# a = np.array([1,2,3,4,5])
-# print(a[3])
-# print(a[2::1])
-# print(a[::-1])
+a = np.array([1,2,3,4,5])
+print(a[3])
+print(a[2::1])
+print(a[::-1])
 
-# # 2D Array
+# 2D Array
 
-# arr = np.random.randint(0,10, size = (5,4))
-# print(arr)
+arr = np.random.randint(0,10, size = (5,4))
+print(arr)
 
-# print(arr[2, -1])  # gives element of row at index 2 and its last element
+print(arr[2, -1])  # gives element of row at index 2 and its last element
 
-# print(arr[-1, -1])  # gives the last element of the matrix
+print(arr[-1, -1])  # gives the last element of the matrix
 
-# print(arr[1:4])
+print(arr[1:4])
 
-# print(arr[1:4, 2:])
-
-
-# print(arr[:, -1:])   # gives the last column
+print(arr[1:4, 2:])
 
 
-# print(arr[2:4, 1:3])
+print(arr[:, -1:])   # gives the last column
 
 
-# 3D Array
+print(arr[2:4, 1:3])
+
+
+#3D Array
 
 np.random.seed(99)
 
