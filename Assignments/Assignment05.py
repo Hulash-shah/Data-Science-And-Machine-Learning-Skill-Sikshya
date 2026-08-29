@@ -11,9 +11,9 @@
 
 # Import the numpy library and check its version.
 
-import numpy as np
+#Solution
 
-# --- Task 1: Import numpy and check its version ---
+import numpy as np
 print(np.__version__)
 
 # Creating a NumPy Array:
@@ -24,7 +24,9 @@ print(np.__version__)
 # Create a 1D NumPy array from a Python list of numbers: [1, 2, 3, 4, 5].
 # Create a 2D NumPy array of shape (3x3) using the numbers from 1 to 9.
 # Generate an array of 10 evenly spaced values between 0 and 5.
-# --- Task 2: Creating NumPy arrays ---
+
+# Solution
+
 arr_1d = np.array([1, 2, 3, 4, 5])
 print("1D array:", arr_1d)
 
@@ -42,7 +44,9 @@ print("Evenly spaced array:", arr_lin)
 # Access the element in the second row, third column of the 2D array you created above.
 # Slice the first two rows and the first two columns from the same array.
 # Modify the value in the last row and first column to 100.
-# --- Task 3: Indexing and slicing ---
+
+# Solution
+
 element = arr_2d[1, 2]
 print("Element at row 2, col 3:", element)
 
@@ -60,7 +64,8 @@ print("Modified array:\n", arr_2d)
 # Change the 1D array into a 2D array of shape (5,1).
 # Flatten a multi-dimensional array back into a 1D array.
 
-# --- Task 4: Properties and methods ---
+# Solution
+
 print("Shape:", arr_2d.shape)
 print("Size:", arr_2d.size)
 print("Dtype:", arr_2d.dtype)
@@ -79,9 +84,12 @@ print("Flattened back to 1D:", flattened)
 # Add 5 to every element in the 1D array.
 # Multiply the 2D array by 3.
 # Perform matrix multiplication between the following two arrays:
+
+# Solution
+
 A = np.array([[1, 2], [3, 4]])
 B = np.array([[5, 6], [7, 8]])
-# --- Task 5: Operations on arrays ---
+
 added = arr_1d + 5
 print("1D array + 5:", added)
 
@@ -100,7 +108,9 @@ print("Matrix multiplication A x B:\n", matmul)
 
 # Create a 3x3 matrix of ones and a 1D array of length 3.
 # Add the 1D array to each row of the matrix using broadcasting.
-# --- Task 6: Broadcasting ---
+
+# Solution  ----> help from gpt
+
 matrix_ones = np.ones((3, 3))
 vector = np.array([1, 2, 3])
 broadcast_result = matrix_ones + vector
