@@ -106,3 +106,11 @@ d = dict.fromkeys([4,5,6,7],50)
 print(d)
 
 print(d.get(5))
+
+print(d.items())
+print(d.keys())
+
+print(d.values())
+
+print(d.pop(5))
+print(d)
