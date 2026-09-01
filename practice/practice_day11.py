@@ -92,25 +92,38 @@ s3 = {44,55}
 
 # Dictionary in Python 
 
-# vanilla python
+# # vanilla python
+# dict = {1:20, 2:40, 3:40}
+
+# # print(dict[1])
+
+# # dict[4] = 45 # creatinga new value pair
+
+# # dict[2] = 44  # updating a key value that already exists
+
+# d = dict.fromkeys([4,5,6,7],50)
+
+# print(d)
+
+# print(d.get(5))
+
+# print(d.items())
+# print(d.keys())
+
+# print(d.values())
+
+# print(d.pop(5))
+# print(d)
+
+# print(d.setdefault(8,55))
+# print(d)
+# d.update({6:55})
+# print(d)
+
 dict = {1:20, 2:40, 3:40}
 
-# print(dict[1])
+for i in dict:
+    print (f"key {i} : value {dict[i]}")
+    
 
-# dict[4] = 45 # creatinga new value pair
 
-# dict[2] = 44  # updating a key value that already exists
-
-d = dict.fromkeys([4,5,6,7],50)
-
-print(d)
-
-print(d.get(5))
-
-print(d.items())
-print(d.keys())
-
-print(d.values())
-
-print(d.pop(5))
-print(d)
