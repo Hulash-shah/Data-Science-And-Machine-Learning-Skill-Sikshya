@@ -1,5 +1,5 @@
-from finance_tools.tax import calculate_tax
-from finance_tools.loan import calculate_emi
+from Assignments.Assignment_01_to_05.finance_app.finance_tools.tax import calculate_tax
+from Assignments.Assignment_01_to_05.finance_app.finance_tools.loan import calculate_emi
 
 
 print("===== Finance App =====")
