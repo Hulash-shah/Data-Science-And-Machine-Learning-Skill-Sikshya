@@ -2,3 +2,5 @@
 *.csv
 # Large dataset files
 Skill_Sikshya/Day49/data.csv
+images/
+images.rar
